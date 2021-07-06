@@ -1,0 +1,50 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d emulator-5554 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url --devtools-server-address http://127.0.0.1:9100/
+
+## exception
+
+RPCError: getVM: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.0.6, on Microsoft Windows [Version 10.0.19041.1052], locale en-IN)
+    • Flutter version 2.0.6 at C:\Android\flutter
+    • Framework revision 1d9032c7e1 (9 weeks ago), 2021-04-29 17:37:58 -0700
+    • Engine revision 05e680e202
+    • Dart version 2.12.3
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at C:\Android\sdk
+    • Platform android-30, build-tools 30.0.2
+    • ANDROID_HOME = C:\Android\sdk
+    • ANDROID_SDK_ROOT = C:\Android\sdk
+    • Java binary at: C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe
+    • Java version Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/windows#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.57.1)
+    • VS Code at C:\Users\User\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.23.0
+
+[✓] Connected device (3 available)
+    • Android SDK built for x86 (mobile) • emulator-5554 • android-x86    • Android 8.1.0 (API 27) (emulator)
+    • Chrome (web)                       • chrome        • web-javascript • Google Chrome 91.0.4472.124
+    • Edge (web)                         • edge          • web-javascript • Microsoft Edge 91.0.864.41
+
+! Doctor found issues in 1 category.
+```
